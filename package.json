@@ -13,7 +13,7 @@
     "deploy": "gh-pages -d demo/dist",
     "test": "echo 'No tests yet'",
     "test:watch": "jest --no-coverage --watch --runInBand --notify --notifyMode always",
-    "prepare": "npm run build"
+    "prepare": "npm install && npm run build"
   },
   "main": "dist/index.js",
   "files": [
