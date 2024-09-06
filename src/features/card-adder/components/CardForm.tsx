@@ -23,14 +23,14 @@ export const CardForm = function <TCard = Card>({ onConfirm, onCancel }: Props<T
           className='react-kanban-card-adder-form__title'
           name='title'
           autoFocus
-          defaultValue='Title'
+          defaultValue='نام تسک'
           // @ts-expect-error TS(2322): Type 'MutableRefObject<undefined>' is not assignab... Remove this comment to see the full error message
           ref={inputCardTitle}
         />
         <input
           className='react-kanban-card-adder-form__description'
           name='description'
-          defaultValue='Description'
+          defaultValue='توضیحات'
           // @ts-expect-error TS(2322): Type 'MutableRefObject<undefined>' is not assignab... Remove this comment to see the full error message
           ref={inputCardDescription}
         />
